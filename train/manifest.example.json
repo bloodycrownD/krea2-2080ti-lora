@@ -1,0 +1,26 @@
+{
+  "arch": "krea2",
+  "baseMode": "raw",
+  "datasetDir": "/ABS/PATH/dataset_crop",
+  "modelsDir": "/ABS/PATH/models",
+  "checkpointDir": "/ABS/PATH/run/ckpt",
+  "precacheDir": "/ABS/PATH/run/precache",
+  "snapshotDir": "/ABS/PATH/run/snapshots",
+  "outputPath": "/ABS/PATH/run/lora_final.safetensors",
+  "resumeFrom": "/ABS/PATH/run/ckpt",
+  "hyperparams": {
+    "steps": 600,
+    "saveEvery": 100,
+    "resolution": 512,
+    "rank": 32,
+    "alpha": 32,
+    "batchSize": 1,
+    "learningRate": 0.0001,
+    "captionDropout": 0.0,
+    "flipAugment": false,
+    "loraScope": "full",
+    "baseQuant": "auto",
+    "offload": "auto",
+    "saveSnapshots": true
+  }
+}

@@ -1,0 +1,9 @@
+# run outputs & scratch
+run/
+snapshots*/
+ckpt*/
+precache*/
+*.safetensors
+__pycache__/
+*.pyc
+.DS_Store
